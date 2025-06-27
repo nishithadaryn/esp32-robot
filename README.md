@@ -21,7 +21,6 @@ This project demonstrates how to control an **ESP32-based robot** using a **PS4 
 - [PS4 Bluetooth Library for ESP32](https://github.com/aed3/PS4-esp32) *(or similar)*
 - USB Driver: [CP210x Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -29,12 +28,11 @@ This project demonstrates how to control an **ESP32-based robot** using a **PS4 
 
 - In Arduino IDE, go to:
   - **File > Preferences** → Add this URL to "Additional Board URLs":
-    ```
+
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-    ```
+
   - Then go to **Tools > Board > Boards Manager** and install "esp32".
 
----
 
 ### 2. Install Required Libraries
 
@@ -75,13 +73,12 @@ Use the sketch in `ESP32Servo/` or `code/` to move motors/servos based on joysti
 
 > Customize mappings in `loop()` based on your robot design.
 
----
 
 ## 🖥️ Driver Installation (Windows)
 
 Use the `CP210x_Windows_Drivers/` if your ESP32 board is not detected over USB.
 
----
+
 
 
 
